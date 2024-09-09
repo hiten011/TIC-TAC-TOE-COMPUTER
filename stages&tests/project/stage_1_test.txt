@@ -1,0 +1,3 @@
+            Input    Output
+player_1    Hiten    Hiten is assigned O
+player_2    Joe      Joe is assigned X

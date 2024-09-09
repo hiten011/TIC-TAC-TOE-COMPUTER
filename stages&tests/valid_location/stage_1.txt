@@ -1,0 +1,4 @@
+Input    Row    Column
+1        1      1
+2        1      2
+4        2      1

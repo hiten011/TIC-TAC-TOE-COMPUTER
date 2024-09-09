@@ -1,0 +1,134 @@
+Test file for hard computer
+
+Test Case 1: (if users enter O at 5)
+hiten enter the location for O: 5
+
+ 1  2  3 
+ 4  O  6 
+ 7  8  9 
+
+Expected Output: 
+Computer placed X at 3
+
+ 1  2  X 
+ 4  O  6 
+ 7  8  9 
+
+Actual Output: 
+Computer placed X at 3
+
+ 1  2  X 
+ 4  O  6 
+ 7  8  9 
+
+
+Test Case 2: (if the users enter location at 7 after entering at 3)
+hiten enter the location for O: 7
+
+ 1  2  X 
+ 4  O  6 
+ O  8  9 
+
+Expected Output: 
+Computer placed X at 9
+
+ 1  2  X 
+ 4  O  6 
+ O  8  X 
+
+Actual Output: 
+Computer placed X at 9
+
+ 1  2  X 
+ 4  O  6 
+ O  8  X 
+
+
+Test Case 3: (Block the user if he can win)
+hiten enter the location for O: 6
+
+ 1  2  X 
+ 4  O  O 
+ O  8  X 
+
+Expected Output: 
+Computer placed X at 4
+
+ 1  2  X 
+ X  O  O 
+ O  8  X 
+
+Actual Output: 
+Computer placed X at 4
+
+ 1  2  X 
+ X  O  O 
+ O  8  X 
+
+
+Test Case 4: (if user enters O at 3)
+hiten enter the location for O: 3
+
+ 1  2  O 
+ 4  5  6 
+ 7  8  9 
+
+Expected Output:
+Computer placed X at 5
+
+ 1  2  O 
+ 4  X  6 
+ 7  8  9 
+
+Actual Output:
+Computer placed X at 5
+
+ 1  2  O 
+ 4  X  6 
+ 7  8  9 
+
+
+Test Case 5: (if the users O at 4 after entering at 3)
+hiten enter the location for O: 4
+
+ 1  2  O 
+ O  X  6 
+ 7  8  9 
+
+Expected Output: 
+Computer placed X at 8
+
+ 1  2  O 
+ O  X  6 
+ 7  X  9
+
+Actual Output:
+Computer placed X at 8
+
+ 1  2  O 
+ O  X  6 
+ 7  X  9 
+
+
+Test Case 6: (if the user enters O at 6)
+hiten enter the location for O: 6
+
+ 1  2  O 
+ O  X  O 
+ 7  X  9 
+
+Expected Output: (computer enters at 2 to win the game)
+Computer placed X at 2
+
+ 1  X  O 
+ O  X  O 
+ 7  X  9 
+
+Actual Output:
+Computer placed X at 2
+
+ 1  X  O 
+ O  X  O 
+ 7  X  9 
+
+COMPUTER won the game

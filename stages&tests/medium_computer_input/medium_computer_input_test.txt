@@ -1,0 +1,82 @@
+Testing the medium computer
+
+
+Test Case 1 ( Computer should move at random )
+hiten enter the location for O: 5
+
+ 1  2  3 
+ 4  O  6 
+ 7  8  9 
+
+Computer placed X at 1
+
+ X  2  3 
+ 4  O  6 
+ 7  8  9 
+
+
+Test Case 2: ( Computer should block the user )
+hiten enter the location for O: 2
+
+ X  O  3 
+ 4  O  6 
+ 7  8  9 
+
+Expected Output: 
+Computer placed X at 8
+
+ X  O  3 
+ 4  O  6 
+ 7  X  9 
+
+Actual Output: 
+Computer placed X at 8
+
+ X  O  3 
+ 4  O  6 
+ 7  X  9 
+
+
+Test case 3: ( Computer should block the user diagonaly )
+hiten enter the location for O: 3
+
+ X  O  O 
+ 4  O  6 
+ 7  X  9 
+
+Expected Output: 
+Computer placed X at 7
+
+ X  O  O 
+ 4  O  6 
+ X  X  9 
+
+Actual Output: 
+Computer placed X at 7
+
+ X  O  O 
+ 4  O  6 
+ X  X  9 
+
+Test Case 4: ( Computer should win the game if it has the chance )
+hiten enter the location for O: 9
+
+ X  O  O 
+ 4  O  6 
+ X  X  O 
+
+Expected Output: 
+Computer placed X at 4
+
+ X  O  O 
+ X  O  6 
+ X  X  O 
+
+Actual output:
+Computer placed X at 4
+
+ X  O  O 
+ X  O  6 
+ X  X  O 
+
+COMPUTER won the game

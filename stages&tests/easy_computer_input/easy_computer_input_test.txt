@@ -1,0 +1,31 @@
+As this computer places X at random, we cannot determine the test cases 
+however while running its placing X correctly without any problems so the code is correct.
+
+hiten enter the location for O: 5
+Computer placed X at 8
+
+ 1  2  3 
+ 4  O  6 
+ 7  X  9 
+
+hiten enter the location for O: 2
+Computer placed X at 9
+
+ 1  O  3 
+ 4  O  6 
+ 7  X  X 
+
+hiten enter the location for O: 1
+Computer placed X at 6
+
+ O  O  3 
+ 4  O  X 
+ 7  X  X 
+
+hiten enter the location for O: 3
+
+ O  O  O 
+ 4  O  X 
+ 7  X  X 
+
+hiten won the game
